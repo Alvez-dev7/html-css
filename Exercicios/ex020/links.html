@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        SELETORES PERSONALIZADOS
+        TAGS CSS:
+        
+        # CSS - id HTML
+        . CSS - Class HTML
+        : CSS - Pseudo-Class
+        :: CSS - Pseudo-Element
+        > - Children 
+
+
+
+        */
+
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color:black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: green;
+        }
+
+        .especial::before{
+            content: '->'
+        }
+
+        .especial::after{
+            content: '<-';
+        }
+
+        .especial{
+            background-color: rgb(0, 255, 55);
+            color: white;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io">Github</a></li>
+        <li class = "especial"><a href="https://cursoemvideo.com">Site do cursoemvideo</a></li>
+
+    </ul>
+</body>
+</html>

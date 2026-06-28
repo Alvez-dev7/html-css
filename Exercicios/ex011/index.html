@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Teste a responsividade desse site</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="FotoGrande">
+        <h1>Reproduzindo audio</h1>
+        <audio preload="metadata" controls>
+            <source src="midia/som01.mp3" type="audio/mpeg">
+            <source src ="midia/som01.mp3" type = "audio/ogg">
+            <p>seu navegador não tem compatibilidade com esse audio, clique <a href="midia/som01.mp3">aqui</a> para carregar o arquivo do audio</p>
+
+
+        </audio>
+
+    </picture>
+</html>
+
